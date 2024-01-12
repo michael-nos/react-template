@@ -1,0 +1,25 @@
+{
+  "name": "react-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "pnpm dlx @biomejs/biome check --apply ./src",
+    "preview": "vite preview",
+    "update:packages": "pnpm up --latest --interactive"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.5.1",
+    "@types/react": "18.2.47",
+    "@types/react-dom": "18.2.18",
+    "@vitejs/plugin-react-swc": "3.5.0",
+    "typescript": "5.3.3",
+    "vite": "5.0.11"
+  }
+}
