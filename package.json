@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "pnpm dlx @biomejs/biome check --apply ./src",
+    "lint": "yarn dlx @biomejs/biome check --apply ./src",
     "preview": "vite preview",
-    "update:packages": "pnpm up --latest --interactive"
+    "update": "yarn upgrade-interactive"
   },
   "dependencies": {
     "react": "18.2.0",
@@ -21,5 +21,6 @@
     "@vitejs/plugin-react-swc": "3.5.0",
     "typescript": "5.3.3",
     "vite": "5.0.11"
-  }
+  },
+  "packageManager": "yarn@4.0.2"
 }

@@ -1,11 +1,11 @@
 # Logs
 logs
 *.log
-pnpm-debug.log*
 
 node_modules
-./dist
+dist/
 *.local
+.yarn*
 
 # Editor directories and files
 .vscode/*
