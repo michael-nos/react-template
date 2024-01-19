@@ -1,0 +1,16 @@
+{
+    "$schema": "https://biomejs.dev/schemas/1.5.2/schema.json",
+    "formatter": {
+      "indentSize": 2
+    },
+    "javascript": {
+      "formatter": {
+        "semicolons": "always",
+        "bracketSpacing": true,
+        "indentSize": 2,
+        "trailingComma": "es5",
+        "indentStyle": "tab",
+        "lineWidth": 120
+      }
+    }
+  }

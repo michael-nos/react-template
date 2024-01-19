@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import { App } from "../App";
+import { App } from "../components/App";
 
 describe("App", () => {
 	it("should match the snapshot", () => {
@@ -9,8 +9,6 @@ describe("App", () => {
 
 	it("should render the heading text", () => {
 		render(<App />);
-		expect(
-			screen.getByText(/Hey there, time to make a fast app!/i),
-		).toBeInTheDocument();
+		expect(screen.getByText(/Hey there, time to make a fast app!/i)).toBeInTheDocument();
 	});
 });

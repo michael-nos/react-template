@@ -1,5 +1,6 @@
 {
 	"$schema": "https://biomejs.dev/schemas/1.5.1/schema.json",
+	"extends": ["./formatter.json"],
 	"organizeImports": {
 		"enabled": true
 	},
@@ -10,7 +11,7 @@
 		"enabled": true,
 		"rules": {
 			"recommended": true,
-			"correctness": {
+			"correctness": { 
 				"noUnusedLabels": "error",
 				"noUnusedVariables": "error",
 				"useExhaustiveDependencies": "error"
