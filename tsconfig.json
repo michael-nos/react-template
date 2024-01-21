@@ -5,13 +5,9 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
-
-    /* Recommended config from shadcn ui docs --> https://ui.shadcn.com/docs/installation/vite */
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "@/*": ["./src/*"]
     },
 
     /* Bundler mode */
@@ -29,7 +25,7 @@
     "noFallthroughCasesInSwitch": true,
 
     /* Testing */
-    "types": ["@testing-library/jest-dom"],
+    "types": ["@testing-library/jest-dom"]
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
