@@ -20,7 +20,13 @@
   "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
   "rules": {
     "react/react-in-jsx-scope": "off",
-    "no-duplicate-imports": "error"
+    "no-duplicate-imports": "error",
+    "sort-imports": [
+      "error",
+      {
+        "ignoreDeclarationSort": true
+      }
+    ]
   },
   "settings": {
     "import/resolver": {

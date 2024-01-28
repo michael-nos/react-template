@@ -1,1 +1,1 @@
-export const Main = () => <h1>Hey there, time to make a fast app!</h1>;
+export const Main = () => <h1>This is the Main component</h1>;
